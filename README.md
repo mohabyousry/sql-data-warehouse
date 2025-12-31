@@ -10,12 +10,11 @@ This project involves:
 * **Quality Assurance:** Ensuring data integrity across all layers.
 
  ## Data Architecture
- The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers: Data Architecture
+The project follows the **Medallion Architecture** to ensure clean, reliable data for reporting:
 
-1- Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-2- Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3- Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
-
+1.  **Bronze Layer (Raw):** Ingests raw CSV data from source systems into SQL Server without modifications to maintain a record of origin.
+2.  **Silver Layer (Cleansed):** Data is cleaned, standardized, and deduplicated. This layer handles null values and ensures uniform formatting.
+3.  **Gold Layer (Analytical):** Business-ready data modeled into a **Star Schema**, allowing for high-performance BI reporting and complex analytical queries.
 
 ## 📂 Repository Structure
 ```bash
