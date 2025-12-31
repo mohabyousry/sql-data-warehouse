@@ -54,4 +54,4 @@ Mohab Yousry Junior Data Engineer
 
 Passionate about building robust data pipelines and turning raw data into business value.
 
-LinkedIn | Portfolio
+[LinkedIn](https://www.linkedin.com/in/mohab-yousry/) 
