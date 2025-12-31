@@ -1,7 +1,7 @@
 # Data Warehouse and Analystics Project
 This project demonstrates a comprehensive data warehousing and analytics solution from building a data warehouse to a generating actionable insights.
 
-📖 Project Overview
+## 📖 Project Overview
 This project involves:
 
 Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
@@ -9,7 +9,7 @@ ETL Pipelines: Extracting, transforming, and loading data from source systems in
 Data Modeling: Developing fact and dimension tables optimized for analytical queries.
 Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
 
- Data Architecture
+ ## Data Architecture
  The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers: Data Architecture
 
 1- Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
@@ -17,7 +17,7 @@ Analytics & Reporting: Creating SQL-based reports and dashboards for actionable 
 3- Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 
-📂 Repository Structure
+## 📂 Repository Structure
 data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
@@ -42,13 +42,13 @@ data-warehouse-project/
 ├── .gitignore                          # Files and directories to be ignored by Git
 └── requirements.txt                    # Dependencies and requirements for the project
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
     Database: Microsoft SQL Server
     Language: T-SQL (Transact-SQL)
     Modeling: Star Schema (Fact & Dimension)
     Design Tools: Draw.io (Architecture & Data Flow)
 
-🛡️ License
+## 🛡️ License
 This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
 
 ---
@@ -58,7 +58,7 @@ This project was developed as part of the **Data Engineering Roadmap** by [Data 
 * Special thanks to Baraa for the architectural guidance and dataset resources.
 * The implementation, SQL scripting, and documentation were performed by me as part of my learning journey.
 
-🌟 About Me
+## 🌟 About Me
 Mohab Yousry Junior Data Engineer
 
 Passionate about building robust data pipelines and turning raw data into business value.
